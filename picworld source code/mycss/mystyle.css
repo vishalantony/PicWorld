@@ -1,0 +1,375 @@
+body {
+    /*background-image: url("pictures/background.jpg");*/
+    padding-bottom: 100px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b0e0e6;
+}
+
+#home {
+	float: left;
+}
+
+#navigation {
+	padding-top:10px;
+	padding-bottom:10px;
+	background: #FFCC66;
+	color: #FFFFFF;
+	
+}
+
+#header,  #footer, #search{
+	text-align: center;
+}
+
+#footer {
+	padding-top:7px;
+}
+
+.booksearch {
+	width: 35pc;
+	height: 2pc;
+	font-size: 1pc
+}
+
+a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+}
+
+#username{
+	display:inline-block;
+	margin-top:10px;
+	color:#000000;
+}
+
+#passwd{
+	display:inline-block;
+	margin-top:10px;
+	color:#000000;
+}
+
+#submitButton {
+	background:#FF9966;
+}
+
+#picworldHome {
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#fname {
+	margin-right: 1px;
+	height: 40px;
+	display:inline;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#lname {
+	height: 40px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#emailbox {
+	margin-top:20px;
+	display:block;
+	height: 40px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#regpasswd {
+	margin-top:20px;
+	display:block;
+	height: 40px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#confregpasswd {
+	margin-top:20px;
+	display:block;
+	height: 40px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#regbutton {
+	margin-top:20px;
+	display:block;
+	height: 40px;
+	width:10pc;
+	background:#FF9966;
+	position:relative;
+	left:10pc;
+}
+
+#regbirthday {
+	margin-top:20px;
+	margin-right:40px;
+}
+
+#regsexop {
+	margin-left:40px;
+}
+
+#agreement {
+	margin-top:20px;
+}
+
+.warning {
+	color:red;
+}
+
+/* login.php form elements */
+#login_body {
+	background-color:#FFE0C2;
+	padding:10px;
+}
+
+#login_pwd_div {
+	padding-top:5px;
+	padding-bottom:10px;
+}
+
+#login_submitButton {
+	display:block;
+	position:relative;
+	left:11pc;
+	background:#FF9966;
+}
+
+#login_labels {
+	text-align:left;
+}
+
+#success_message {
+	text-align:center;
+	margin-top:10pc;
+}
+
+div.col-md-1 {
+	text-align: center;
+}
+
+#display_dp {
+	text-align:center;
+}
+
+#dp_row {
+	padding-top:1pc;
+}
+
+#album_thumbnails {
+	padding:10px;
+}
+
+div.value {
+	text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;
+}
+div.key {
+	text-align: left;
+}
+#update {
+	display:inline;
+	color:red;
+}
+
+#delete {
+	display:inline;
+	color:red;
+}
+
+div.update {
+	text-align:center;
+	font-size:10px;
+	position:fixed;
+	bottom:50px;
+	display:inline;
+	width:100%;
+	background-color:#FFFFFF;
+	padding:10px;
+}
+
+div.footer {
+	position:fixed;
+	width:100%;
+}
+
+
+div.album_op {
+	text-align:center;
+	font-size:10px;
+}
+
+
+input.update_info {
+	width:25pc;
+}
+
+textarea.update_info{
+	max-width: 25pc;
+}
+
+#error_message {
+	text-align:center;
+}
+
+a.navglyphs {
+	display:inline;
+}
+
+div.navglyphsdiv {
+	text-align:center;
+}
+
+.glyphicon {
+	font-size:130%;
+	color:#990099;
+}
+
+td.navglyphtable {
+	padding-top:10px;
+	width:15pc;
+}
+
+#set_default_dp {
+	display:inline;
+	font-size:10px;
+}
+
+table.albums_table {
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+#albums {
+	display:inline;
+}
+
+td.albums_table {
+	padding:10px;
+}
+
+#list_albums {
+	width:33%;
+	padding-top:10px;
+}
+
+a.album_link {
+	display:inline;	
+}
+
+nav.navbar {
+}
+nav.navbar-default  {
+}
+
+nav.navbar-fixed-bottom {
+}
+
+td.album_details {
+	width:33%;
+}
+
+#album_name {
+	width:100%;
+}
+
+#album_desc {
+	width:100%;
+}
+
+div.enlarge_image {
+	text-align:center;
+}
+
+#image_desc {
+			text-align:justify;
+			margin-left: auto;
+			margin-right: auto;
+		}
+#image_like {
+text-align:left;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.comments_div {
+margin-left: auto;
+margin-right: auto;
+}
+
+#image_comments  {
+text-align:left;
+margin-left: auto;
+margin-right: auto;
+}
+
+#add_comment {
+	display:inline;
+}
+textarea.story {
+	width: 300px;
+}
+
+#friend_list {
+	padding-top:20px;
+}
+
+#friend_list_name {
+	display:inline;
+}
+
+#friends {
+	display: inline;
+}
+
+#image_owner {
+	display: inline;
+}
+
+#activity {
+	width: 30%;
+}
+
+#activity_content {
+	display: inline;
+}
+
+#unread_notifs {
+	background-color: #D8D8FF;
+	padding-right: 10px;
+}
+
+#read_notifs {
+	padding-right: 10px;
+}
+
+#mark_read {
+	font-size:11px;
+}
+
+#search_text {
+	width:25pc;
+	height:30px;
+	margin-top:8px;
+	color:black;
+}
+
+#search_button {
+	background:#FF3300;
+}
+
+#about_album {
+	font-weight:bold;
+}
