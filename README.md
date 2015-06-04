@@ -14,5 +14,5 @@ You can now go to the index.php page to register and use the platform.<br>
 Please enter the correct details of the mysql configuration on your system in the<br>
 files in the include directory.<br>
 
-If you are interested in the project report, view here:
-http://1drv.ms/1HLHb6p
+If you are interested in the project report, view here:<br>
+http://1drv.ms/1HLHhuV
